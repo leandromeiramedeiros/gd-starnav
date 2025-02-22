@@ -73,7 +73,7 @@ void init()
 
 struct devotion {
     starset chosen{};
-    i8 points{55};
+    i8 points{60};
     affinity affinity{};
 
     bool operator==(const devotion& rhs) const
@@ -580,8 +580,8 @@ extern "C" int main()
         // "Yugol, the Insatiable Night",
     };
 
-    // possible_choices(55, constraints);
-    // std::cerr << (bool)possible_completion(55, constraints, 2) << "\n";
+    // possible_choices(60, constraints);
+    // std::cerr << (bool)possible_completion(60, constraints, 2) << "\n";
 #endif
 }
 
